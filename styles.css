@@ -1,0 +1,20 @@
+h1 {
+    border: black 1px solid;
+}
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: green;
+}
+
+.one-list {
+    color: bisque;
+    background-color: aquamarine;
+}
+
+.section-title {
+    color: blueviolet;
+}

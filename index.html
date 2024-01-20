@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
     <header>
         <nav>
-            <a href="">
+            <a href="№">
                 <img src="" alt="logo">
             </a>
             <ul>
-                <li><a href="#">Франшиза</a></li>
-                <li><a href="#">222</a></li>
-                <li><a href="#">333</a></li>
-                <li><a href="#">444</a></li>
+                <li><a class="link" href="#one-section">Перший блок</a></li>
+                <li><a class="link" href="#two-section">Блок222</a></li>
+                <li><a class="link" href="#tree-section">Блок 333</a></li>
+                <li><a class="link" href="#four-section">Блок 444</a></li>
             </ul>
         </nav>
         <button type="button">Замовити дзвінок</button>
@@ -24,21 +26,21 @@
         <section>
             <h1>Тест Сайт</h1>
         </section>
-        <section>
-            <ul>
+        <section id="one-section">
+            <ul class="one-list">
                 <li>111</li>
                 <li>222</li>
                 <li>333</li>
             </ul>
         </section>
-        <section>
-            <h2>Найкращий формат традицій</h2>
+        <section id="two-section">
+            <h2 class="section-title">Найкращий формат традицій</h2>
             <p><span>Text</span> text text text</p>
             <p>Text2 Text2 Text2 Text2 Text2 Text2</p>
             <img src="" alt="">
         </section>
-        <section>
-            <h2>Наші найкращі розробники</h2>
+        <section id="tree-section">
+            <h2 class="section-title">Наші найкращі розробники</h2>
             <article>
                 <h3>Name1</h3>
                 <p>Опис розробника1</p>
@@ -48,26 +50,9 @@
                 <p>Опис розробника2</p>
             </article>
         </section>
-        <section>
-            <h2>Формати</h2>
-            <ul>
-                <li>            <article>
-                    <h3>111</h3>
-                </article></li>
-            </ul>
-            <ul>
-                <li>            <article>
-                    <h3>222</h3>
-                </article></li>
-            </ul>
-            <ul>
-                <li>            <article>
-                    <h3>333</h3>
-                </article></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Долучайтеся до нас</h2>
+        <section id="four-section">
+            <h2 class="section-title">Долучайтеся до нас</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1266.2919254096134!2d26.26428526422086!3d50.59768772335421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c738c19d94bb%3A0xb97523ba3a32448d!2z0KHRltC70YzQv9C-!5e0!3m2!1suk!2sua!4v1705774014639!5m2!1suk!2sua" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
     </main>
@@ -96,6 +81,8 @@
                     <a href="#">fb</a>
                 </li>
             </ul>
+            <a href="#" target="_blank">Політика конфіденційності</a>
+            <p>&copy; 2024 Дані захищено</p>
         </address>
     </footer>
 </body>

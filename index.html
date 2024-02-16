@@ -6,84 +6,253 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="./styles.css"/>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="№">
-                <img src="" alt="logo">
-            </a>
-            <ul>
-                <li><a class="link" href="#one-section">Перший блок</a></li>
-                <li><a class="link" href="#two-section">Блок222</a></li>
-                <li><a class="link" href="#tree-section">Блок 333</a></li>
-                <li><a class="link" href="#four-section">Блок 444</a></li>
-            </ul>
-        </nav>
-        <button type="button">Замовити дзвінок</button>
+        <div class="container">
+            <div class="header">
+                <nav class="header-nav">
+                    <a href="#">
+                        <img src="" alt="logo">
+                    </a>
+                    <ul class="header-menu">
+                        <li><a class="link" href="#one-section">Перший блок</a></li>
+                        <li><a class="link" href="#two-section">Блок222</a></li>
+                        <li><a class="link" href="#tree-section">Блок 333</a></li>
+                        <li><a class="link" href="#four-section">Блок 444</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="button">Замовити дзвінок</button>
+                
+                <!-- <button class="burger" type="button">=</button>  
+                
+                <div class="mobile-menu">
+                    <button class="menu-btn-close" type="button">Close</button>
+                </div> -->
+
+            </div>
+        </div>
     </header> 
     <main>
-        <section>
-            <h1>Тест Сайт</h1>
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-title">Тест Сайт</h1>
+            </div>
+
+            </section>
+            <section class="section-list">
+                <div class="container">
+                    <ul class="one-list">
+                        <li class="one-item">111</li>
+                        <li class="one-item">222</li>
+                        <li class="one-item">333</li>
+                    </ul>
+                </div>
         </section>
-        <section id="one-section">
-            <ul class="one-list">
-                <li>111</li>
-                <li>222</li>
-                <li>333</li>
-            </ul>
+        <section class="one-section section" id="one-section">
+            <div class="container">
+                <h2 class="section-title">Найкращий формат традицій</h2>
+                <p><span>Text</span> text text text</p>
+                <p>Text2 Text2 Text2 Text2 Text2 Text2</p>
+                <img src="#" alt="pic">
+    
+            </div>
         </section>
-        <section id="two-section">
-            <h2 class="section-title">Найкращий формат традицій</h2>
-            <p><span>Text</span> text text text</p>
-            <p>Text2 Text2 Text2 Text2 Text2 Text2</p>
-            <img src="" alt="">
+        <section class="section" id="two-section">
+            <div class="container">
+                <h2 class="section-title">Наші найкращі розробники</h2>
+                <div class="container-dev">
+                    <div class="name-dev">
+                        <article class="name-dev">
+                            <h3 class="tree-title">Name1</h3>
+                            <p>Опис розробника1 Опис розробника1 Опис розробника1 Опис розробника1</p>
+                        </article>
+                    </div>
+                   <div class="name-dev">
+                    <article class="name-dev">
+                        <h3 class="tree-title">Name2</h3>
+                        <p>Опис розробника2 Опис розробника2 Опис розробника2 Опис розробника2</p>
+                    </article>
+                   </div>    
+                </div>
+            </div>
         </section>
-        <section id="tree-section">
-            <h2 class="section-title">Наші найкращі розробники</h2>
-            <article>
-                <h3>Name1</h3>
-                <p>Опис розробника1</p>
-            </article>
-            <article>
-                <h3>Name2</h3>
-                <p>Опис розробника2</p>
-            </article>
+        <section class="section" id="tree-section">
+            <div class="container">
+                <h2 class="section-title">Формати</h2>
+                <div class="formats-container">
+                    <button class="btn-swiper prev" type="button">--</button>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <ul class="format-list">
+                                <li class="format-li">
+                                    <div class="swiper-alider">
+                                        <article>                                
+                                        <h3 class="four-title">HTML</h3>
+                                        <div class="format-text">
+                                            <p>fdgdfgsdg</p>
+                                            <p>gksfk dlfgajfgl sdjghlksadh glkasdg</p>
+                                            <p>lksdf lkjdl
+                                            </div>fj slkfj sldkf jas</p> 
+                                        </article>
+                                        </div>
+                                    
+                                </li>
+                                <li class="format-li">
+                                    <div class="swiper-alider">
+                                        <article>
+                                        <h3 class="four-title">CSS</h3>
+                                        <div class="format-text">
+                                            <p>fdgdfgsdg</p>
+                                            <p>gksfk dlfgajfgl sdjghlksadh glkasdg</p>
+                                            <p>lksdf lkjdlfj slkfj sldkf jas</p> 
+                                        </div>
+                                    </article>
+                                    </div>
+                                    
+                                </li>
+                                <li class="format-li">
+                                    <div class="swiper-alider">
+                                        <article>
+                                        <h3 class="four-title">JavaScript</h3>
+                                        <div class="format-text">
+                                            <p>fdgdfgsdg</p>
+                                            <p>gksfk dlfgajfgl sdjghlksadh glkasdg</p>
+                                            <p>lksdf lkjdlfj slkfj sldkf jas</p> 
+                                        </div>
+                                    </article>
+                                    </div>                                        
+                                    
+                                </li>
+                                <li class="format-li">
+                                    <div class="swiper-alider">
+                                        <article>
+                                        <h3 class="four-title">444444</h3>
+                                        <div class="format-text">
+                                            <p>fdgdfgsdg</p>
+                                            <p>gksfk dlfgajfgl sdjghlksadh glkasdg</p>
+                                            <p>lksdf lkjdlfj slkfj sldkf jas</p> 
+                                        </div> 
+                                    </article>                
+                                    </div>       
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <button class="btn-swiper next" type="button">--</button>
+                </div>
+            </div>
         </section>
-        <section id="four-section">
-            <h2 class="section-title">Долучайтеся до нас</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1266.2919254096134!2d26.26428526422086!3d50.59768772335421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c738c19d94bb%3A0xb97523ba3a32448d!2z0KHRltC70YzQv9C-!5e0!3m2!1suk!2sua!4v1705774014639!5m2!1suk!2sua" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <section class="section" id="four-section">
+            <div class="container">
+                <div class="container-form">
+                    <div class="contact-form">
+                        <h2 class="section-title">Долучайтеся до нас</h2>
+                        <p>Заповни форму</p>
+
+                        <form name="contact-form" autocomplete="off" novalidate>
+                            <div class="form-field">
+                                <label class="form-lable" for="user-name">Ім'я</label>
+                            <input class="form-input" type="text" id="user-name" name="user-name">
+                            </div>
+            
+                            <div class="form-field">
+                                <label class="form-lable" for="user-tel">Телефон</label>
+                            <input class="form-input" type="tel" id="user-tel" name="user-tel">
+                            </div>
+            
+                            <div class="form-field">
+                                <label class="form-lable" for="user-email">Імейл</label>
+                            <input class="form-input" type="email" id="user-name" name="user-email">
+                            </div>
+            
+                            <button class="form-button button" type="submit">Замовити дзвінок</button>
+                            <p class="form-terms">Натискаючи на кнопку я погоджуюся з <a class="form-terms-link" href="#">політикою конфіденційності</a></p>
+                            
+                        </form>
+                    </div>
+                    <div class="contact-map">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1266.2919254096134!2d26.26428526422086!3d50.59768772335421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c738c19d94bb%3A0xb97523ba3a32448d!2z0KHRltC70YzQv9C-!5e0!3m2!1suk!2sua!4v1705774014639!5m2!1suk!2sua" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
-    <footer>
-        <nav>
-            <a href="">
-                            <!-- Logo -->
-            </a>
-            <ul>
-                <li><a href="#">Франшиза</a></li>
-                <li><a href="#">222</a></li>
-                <li><a href="#">333</a></li>
-                <li><a href="#">444</a></li>
-            </ul>
-        </nav>
-        <address>
-            <ul>
-                <li><a href="#">466</a></li>
-                <li><a href="#">sfsf@hmail.com</a></li>
-                <li><a href="#" target="_blank">Rivne</a></li>
-
-                <li>
-                    <a href="#">insta</a>
-                </li>
-                <li>
-                    <a href="#">fb</a>
-                </li>
-            </ul>
-            <a href="#" target="_blank">Політика конфіденційності</a>
-            <p>&copy; 2024 Дані захищено</p>
-        </address>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <nav class="footer-nav">
+                    <div class="footer-logo">
+                        <a href="#">
+                            <img src="#" alt="#">
+                        </a>
+                    </div>
+                    <ul class="footer-menu">
+                        <li><a class="link" href="#">Франшиза</a></li>
+                        <li><a class="link" href="#">222</a></li>
+                        <li><a class="link" href="#">333</a></li>
+                        <li><a class="link" href="#">444</a></li>
+                    </ul>
+                </nav>
+                <address class="footer-address">
+                    <ul class="address-list">
+                        <li><a class="address-link" href="#">466</a></li>
+                        <li><a class="address-link" href="#">sfsf@hmail.com</a></li>
+                        <li><a class="address-link" href="#" target="_blank">Rivne</a></li>
+        
+                        <li>
+                            <a href="#">insta</a>
+                        </li>
+                        <li>
+                            <a href="#">fb</a>
+                        </li>
+                    </ul>
+                    <a class="address-link" href="#" target="_blank">Політика конфіденційності</a>
+                    <p class="address-copyr">&copy; 2024 Дані захищено</p>
+                </address>
+            </div>
+        </div>
     </footer>
+
+
+    <div class="backdrop">
+        <div class="modal">
+            <button class="modal-btn-close" type="button">Close</button>
+            <h2>Замовити дзвінок</h2>
+            <p>Залишіть вашу заявку</p>
+            <form name="modal-form" autocomplete="off">
+                <div class="form-field">
+                    <label class="form-lable" for="user-name">Ім'я</label>
+                <input class="form-input" type="text" id="user-name" name="user-name" required>
+                </div>
+
+                <div class="form-field">
+                    <label class="form-lable" for="user-tel">Телефон</label>
+                <input class="form-input" type="tel" id="user-tel" name="user-tel" required>
+                </div>
+
+                <div class="form-field">
+                    <label class="form-lable" for="user-email">Імейл</label>
+                <input class="form-input" type="email" id="user-name" name="user-email" required>
+                </div>
+
+                <button class="form-button button" type="submit">Замовити дзвінок</button>
+                <p class="form-terms">Натискаючи на кнопку я погоджуюся з <a class="form-terms-link" href="#">політикою конфіденційності</a></p>
+                
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./formats-slider.js"></script>
+    <script src="./modal.js"></script>
 </body>
 </html>

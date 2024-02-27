@@ -67,6 +67,10 @@ ul {
     justify-content: center;
 }
 
+.logo {
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 1200px) {
 .header-menu
 {
@@ -83,6 +87,10 @@ ul {
     margin-bottom: 0;
     text-align: center;
     color: var(--color-brand-dark);
+}
+
+.header-button {
+    margin-right: 10px;
 }
 
 .button {
